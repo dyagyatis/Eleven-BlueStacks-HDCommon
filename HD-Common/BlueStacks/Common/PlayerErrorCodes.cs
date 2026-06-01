@@ -1,0 +1,22 @@
+﻿using System;
+
+namespace BlueStacks.Common
+{
+	public enum PlayerErrorCodes
+	{
+		SUCCESS,
+		INVALID_VMNAME,
+		GENERIC_BOOT_ERROR = -1,
+		CHECK_FILE_INTEGRITY_FAILED = -2,
+		UNHANDLED_EXCPETION = -3,
+		INIT_FAILED = -4,
+		HYPER_V_ENABLED = -5,
+		AUDIO_INITIALIZATION_FAILED = -6,
+		VBOX_DRIVER_NOT_INSTALLED = -7,
+		VBOX_BRIDGE_EXCEPTION = -8,
+		FORCE_SHUTDOWN = -9,
+		VTX_DISABLED = -10
+	}
+}
+
+

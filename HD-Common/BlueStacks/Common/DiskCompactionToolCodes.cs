@@ -1,0 +1,20 @@
+﻿using System;
+
+namespace BlueStacks.Common
+{
+	public enum DiskCompactionToolCodes
+	{
+		SUCCESS,
+		VERSION_NOT_SUPPORTED = -1,
+		SOME_ERROR_WHILE_MERGING = -2,
+		UNHANDLED_EXCEPTION = -3,
+		VIRTUAL_BOX_INIT_FAILED = -4,
+		ERROR_IN_MERGING_DISK = -5,
+		GUEST_NOT_BOOTED_FOR_RUNNING_ADB_COMMANDS = -6,
+		UNABLE_TO_FREE_DISK = -7,
+		VBOX_ERROR_IN_FINAL_COMPACTION = -8,
+		VM_DONT_EXIST = -9
+	}
+}
+
+
